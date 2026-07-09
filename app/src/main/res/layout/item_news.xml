@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="14dp">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/accent_strip" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gold"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.1"
+            android:textSize="10sp"
+            android:text="SOURCE  ·  12:00 IST" />
+
+        <TextView
+            android:id="@+id/headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/paper"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="16sp"
+            android:text="Headline goes here" />
+
+        <TextView
+            android:id="@+id/excerpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/sage"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.25"
+            android:text="Excerpt goes here" />
+
+        <TextView
+            android:id="@+id/readMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Read full wire →"
+            android:textColor="@color/gold"
+            android:fontFamily="monospace"
+            android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>

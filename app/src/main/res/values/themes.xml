@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MarketWire" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/ink</item>
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryDark">@color/ink</item>
+        <item name="colorAccent">@color/gold</item>
+        <item name="android:statusBarColor">@color/ink</item>
+        <item name="android:navigationBarColor">@color/ink</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#0E1A17</color>
+    <color name="surface">#152420</color>
+    <color name="surface2">#1B2D28</color>
+    <color name="paper">#E8E4D9</color>
+    <color name="sage">#9FB3AC</color>
+    <color name="gold">#C9A227</color>
+    <color name="market_green">#3E9A6D</color>
+    <color name="market_red">#B5533C</color>
+</resources>
